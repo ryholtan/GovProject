@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constitutional Jeopardy</title>
     <link rel="stylesheet" href="gov.css">
-    <script src="gov.js" defer></script>
+    <script type="module" src="gov.js" defer></script>
 </head>
 <header id="header">
     <h1 id="title">Constitutional Jeopardy</h1>
+    <div class="cell">Executive Powers</div>
+    <div class="cell">Congress' Role</div>
+    <div class="cell">Judicial Actions</div>
+    <div class="cell">Media Influence</div>
+    <div class="cell">Party Politics</div>
+    <div class="cell">Public Opinion</div>
 </header>
 
 <body>
     
     <div class="board" id="board"></div>
-    <div class="overlay" id="overlay" onclick="closeQuestion()"></div>
+    <div class="overlay" id="overlay"></div>
     <div class="question-box" id="question-box">
         <p id="question-text"></p>
     </div>
